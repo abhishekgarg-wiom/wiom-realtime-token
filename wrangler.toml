@@ -1,0 +1,6 @@
+name = "wiom-realtime-token"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Set via `wrangler secret put OPENAI_API_KEY`
+# Optional: `wrangler secret put ALLOWED_ORIGINS` (comma-separated, default "*")
